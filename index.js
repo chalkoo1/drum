@@ -75,6 +75,15 @@ function buttonAnimation(currentKey){
     }, 100);    
 };
 
+$("h1").css("color" , "black");
+    
+$("h1").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+  });
+
+
 
 
 // var audio = new Audio("sounds/tom-1.mp3")
